@@ -1,4 +1,4 @@
 # HitBtcSharp
 
-Rest and Websocket Client for HITBTC Crypto Currency Exchange
+Rest and Websocket Client for HITBTC Exchange
 
