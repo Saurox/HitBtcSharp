@@ -52,8 +52,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessModels\Balance.cs" />
+    <Compile Include="BusinessModels\Currency.cs" />
+    <Compile Include="BusinessModels\Enum\ECurrency.cs" />
+    <Compile Include="BusinessModels\Enum\ESymbol.cs" />
     <Compile Include="BusinessModels\Order.cs" />
     <Compile Include="BusinessModels\Report.cs" />
+    <Compile Include="BusinessModels\Symbol.cs" />
     <Compile Include="HBRestClient\HBRestClient.cs" />
     <Compile Include="HBWSClient\HBWSClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
