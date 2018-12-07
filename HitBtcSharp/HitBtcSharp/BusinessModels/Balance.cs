@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HitBtcSharp.HBWSClient
+namespace HitBtcSharp.BusinessModels
 {
-    public class HBWSClient
+    public class Balance
     {
-        public HBWSClient()
-        {
-
-        }
     }
 }
