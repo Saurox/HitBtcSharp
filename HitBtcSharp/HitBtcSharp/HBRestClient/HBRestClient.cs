@@ -173,6 +173,5 @@ namespace HitBtcSharp.HBRestClient
             IRestResponse response = client.Execute(request);
         }
         #endregion
-
     }
 }
