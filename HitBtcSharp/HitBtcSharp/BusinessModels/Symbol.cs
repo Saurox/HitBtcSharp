@@ -6,13 +6,13 @@ namespace HitBtcSharp.BusinessModels
     public class Symbol
     {
         [JsonProperty("id")]
-        public ESymbol Id { get; set; }
+        public string Id { get; set; }
 
         [JsonProperty("baseCurrency")]
-        public ECurrency BaseCurrency { get; set; }
+        public string BaseCurrency { get; set; }
 
         [JsonProperty("quoteCurrency")]
-        public ECurrency QuoteCurrency { get; set; }
+        public string QuoteCurrency { get; set; }
 
         [JsonProperty("quantityIncrement")]
         public decimal QuantityIncrement { get; set; }
@@ -27,6 +27,6 @@ namespace HitBtcSharp.BusinessModels
         public decimal ProvideLiquidityRate { get; set; }
 
         [JsonProperty("feeCurrency")]
-        public ECurrency FeeCurrency { get; set; }
+        public string FeeCurrency { get; set; }
     }
 }

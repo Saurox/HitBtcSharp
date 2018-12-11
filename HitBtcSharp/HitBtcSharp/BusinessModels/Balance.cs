@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HitBtcSharp.BusinessModels.Enum;
+using Newtonsoft.Json;
 
 namespace HitBtcSharp.BusinessModels
 {
     public class Balance
     {
+        [JsonProperty("currency")]
+        public string Currency { get; set; }
+        [JsonProperty("available")]
+        public decimal Available { get; set; }
+        [JsonProperty("reserved")]
+        public decimal Reserved { get; set; }
     }
 }
